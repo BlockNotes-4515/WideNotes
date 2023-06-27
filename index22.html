@@ -188,17 +188,31 @@
     <nav>
         <ul>
             <nav>
-            <li><a href="https://iitmjp.ac.in/"><mark>Comlain to Ashish Sir : )</mark></a></li>
+            <li><a href="https://iitmjp.ac.in/"><mark><b>IITM Official.co</b></mark></a></li>
             <li>
-              <center><b>Select the courses.</b></center>
+              <center><b>Select the courses (Sample-Papers)</b></center>
                 <select onchange="location = this.value;">
                
-                    <option value="Select Courses" selected disabled>Select Course</option>
+                    <option value="Select Courses" selected disabled><b>Select Course for Sample-Papers.</b></option>
                     <option value="semester-wise.html">BCA</option>
                 </select>
             </li></nav>
        </nav>
-  <script>
+    <marquee behavior="scroll" direction="left" bgcolor="blue" scrollamount="10"><b><i><font color="yellow">Choose the course for Notes and Sample-Papers seperately!!------------------------------------------------------------Choose the course for Notes and Sample-Papers seperately!!------------------------------------------------Choose the course for Notes and Sample-Papers seperately!!</font></i></b></marquee>
+   <nav>
+        <ul>
+            <nav>
+            
+            <li>
+              <center><b>Select the courses (Notes)</b></center>
+                <select onchange="location = this.value;">
+               
+                    <option value="Select Courses" selected disabled><b>Select Course for Notes</b></option>
+                    <option value="notes.html">BCA</option>
+                </select>
+            </li></nav>
+       </nav>
+    <script>
     function redirectToWebsite(selectElement) {
       var selectedOption = selectElement.options[selectElement.selectedIndex];
       var selectedValue = selectedOption.value;
